@@ -9,6 +9,9 @@ export default function Home() {
       </Head>
 
       <main>
+        <p>Hi Jemma. As this page is public, it is now public knowledge that:</p>
+        <br />
+        <p><em>You are awesome.</em></p>
       </main>
 
       <footer>
