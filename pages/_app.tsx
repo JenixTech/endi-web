@@ -20,7 +20,7 @@ const styles = {
       height: '100%'
     },
     "footer": {
-      height: '4rem',
+      minHeight: '4rem',
       background: '#ffffff',
       color: '#000000',
       fontWeight: 'bold',

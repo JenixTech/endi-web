@@ -65,31 +65,34 @@ export default function Home() {
         <meta name="description" content="ENdi: Your personal endometriosis diary" />
       </Head>
       
-      <Flex height='100vh' flexDirection="column">
+      <Flex 
+        height='100vh' 
+        flexDirection="column"
+      >
         <Box flexGrow={2}>
           <main>
             <ResponsiveStack 
               stackProps={{
-                horizontal: true, 
+                horizontal: !!(size.width && size.width > 710), 
                 spacing: "0px",
                 height: "100%"
               }}
             >
               <Center 
                 minWidth={(size.width && size.width < 900) ? "" : "500px"}
-                width={1/3} 
-                height="100%" 
+                width={(size.width && size.width > 710) ? 1/3 : "100%"} 
+                height={(size.width && size.width > 710) ? "100%" : "50%"} 
                 bg="brand.secondary" 
                 alignItems="center"
               >
                   <Image 
                     src="/endi_screenshot.png"
                     alt="ENdi screenshot on iOS"
-                    maxHeight="800px"
+                    maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} 
                   />
               </Center>
               <Flex 
-                width={2/3} 
+                width={(size.width && size.width > 710) ? 2/3 : "100%"} 
                 height="100%" 
                 justifyContent="center"
                 flexDirection="column"
@@ -98,7 +101,7 @@ export default function Home() {
                 <Text fontWeight="bold" fontSize="2xl">A mobile app for iOS and Android</Text>
                 <Heading 
                   as="h1" 
-                  size="4xl"
+                  size={(size.width && size.width < 340) ? "3xl" : "4xl"} 
                   marginY="1rem"
                   color="white"
                   textTransform="uppercase"
@@ -109,7 +112,7 @@ export default function Home() {
                 <Text height="1.5rem" marginTop="1.5rem" color={subscribeError ? 'red' : 'black'}>{subscribeMessage}</Text>
                 <ResponsiveStack
                   stackProps={{
-                    horizontal: (size.width && size.width < 1234) ? false : true,
+                    horizontal: !!(size.width && size.width > 1234),
                     marginY: "0.5rem",
                     alignItems: "flex-start"
                   }}
@@ -139,9 +142,9 @@ export default function Home() {
         </Box>
 
         <footer>
-          <Center flexGrow={1} height='100%'>
+          <Center flexGrow={1} height="100%">
             <HStack>
-              <Text>&copy; 2021 Jenix Technologies LTD. All Rights Reserved.</Text>
+              <Text textAlign="center">&copy; 2021 Jenix Technologies LTD. All Rights Reserved.</Text>
             </HStack>
           </Center>
         </footer>
