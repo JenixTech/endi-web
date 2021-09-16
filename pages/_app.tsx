@@ -29,9 +29,15 @@ const styles = {
   }
 }
 
+const fonts = {
+  heading: "Roboto",
+  body: "Open Sans",
+};
+
 const theme = extendTheme({ 
   colors,
-  styles
+  styles,
+  // fonts
 })
 
 function MyApp({ Component, pageProps }: AppProps) {
