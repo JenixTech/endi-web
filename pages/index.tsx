@@ -144,7 +144,7 @@ export default function Home() {
         <footer>
           <Center flexGrow={1} height="100%">
             <HStack>
-              <Text textAlign="center">&copy; 2021 Jenix Technologies LTD. All Rights Reserved.</Text>
+              <Text fontSize="small" textAlign="center">&copy; 2021 Jenix Technologies LTD. All Rights Reserved.</Text>
             </HStack>
           </Center>
         </footer>
