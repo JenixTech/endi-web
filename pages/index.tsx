@@ -108,7 +108,7 @@ export default function Home() {
                 >
                   Coming Soon!
                 </Heading>
-                <Text fontWeight="bold" fontSize="2xl">Enter your email and we'll send you a link as soon as it's available.</Text>
+                <Text fontWeight="bold" fontSize="2xl">Enter your email and we&rsquo;ll send you a link as soon as it&rsquo;s available.</Text>
                 <Text height="1.5rem" marginTop="1.5rem" color={subscribeError ? 'red' : 'black'}>{subscribeMessage}</Text>
                 <ResponsiveStack
                   stackProps={{
