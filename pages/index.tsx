@@ -86,7 +86,7 @@ export default function Home() {
                 alignItems="center"
               >
                 <Img
-                  fallback={<div />}
+                  fallback={<Box maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} />}
                   src="/endi_screenshot.png"
                   alt="ENdi screenshot on iOS"
                   loading="eager"
