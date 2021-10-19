@@ -85,7 +85,8 @@ export default function Home() {
                 bg="brand.secondary" 
                 alignItems="center"
               >
-                <Img 
+                <Img
+                  fallback={<div />}
                   src="/endi_screenshot.png"
                   alt="ENdi screenshot on iOS"
                   loading="eager"
