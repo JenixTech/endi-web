@@ -88,6 +88,7 @@ export default function Home() {
                 <Img 
                   src="/endi_screenshot.png"
                   alt="ENdi screenshot on iOS"
+                  loading="eager"
                   maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} 
                 />
               </Center>
