@@ -8,7 +8,6 @@ import {
   Box, 
   Input, 
   Button,
-  // Image
   Img
 } from '@chakra-ui/react';
 import Head from 'next/head';
