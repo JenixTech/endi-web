@@ -8,7 +8,8 @@ import {
   Box, 
   Input, 
   Button,
-  Image
+  // Image
+  Img
 } from '@chakra-ui/react';
 import Head from 'next/head';
 
@@ -85,11 +86,11 @@ export default function Home() {
                 bg="brand.secondary" 
                 alignItems="center"
               >
-                  <Image 
-                    src="/endi_screenshot.png"
-                    alt="ENdi screenshot on iOS"
-                    maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} 
-                  />
+                <Img 
+                  src="/endi_screenshot.png"
+                  alt="ENdi screenshot on iOS"
+                  maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} 
+                />
               </Center>
               <Flex 
                 width={(size.width && size.width > 710) ? 2/3 : "100%"} 
