@@ -4,16 +4,9 @@ import { NextApiRequest, NextApiResponse } from "next";
 const handler = nextConnect();
 
 handler.get(async (req: NextApiRequest, res: NextApiResponse, next) => {
-    if (req.headers["content-type"] !== "application/json") {
-      res.status(400).json({
-        error: `Content-Type must be JSON`,
-      });
-      next(res);
-    }
-
     const requiredFields = ["date"];
     requiredFields.forEach((field) => {
-      if (!req.body.hasOwnProperty(field) || field === "" || !req.body[field]) {
+      if (!req.query.hasOwnProperty(field) || field === "" || !req.query[field]) {
         res.status(400).json({ error: `Missing or Empty ${field}` });
         next(res);
       }
@@ -21,7 +14,7 @@ handler.get(async (req: NextApiRequest, res: NextApiResponse, next) => {
     
     try {
       const response = await fetch(
-        `${process.env.QOTD_URL}/date=${req.query.date}`,
+        `${process.env.QOTD_URL}/?date=${req.query.date}`,
         {
           method: "GET",
           headers: {
