@@ -20,13 +20,12 @@ exports.handler = async (event) => {
         
         const command = new GetItemCommand(params);
         
-        const { Items } = await dbClient.send(command);
-        const jsonItems = Items.map((item) => unmarshall(item));
+        const { Item } = await dbClient.send(command);
 
         response = {
             ...response,
             statusCode: 200,
-            body: JSON.stringify(jsonItems),
+            body: Item ? JSON.stringify(unmarshall(Item)) : JSON.stringify({}),
         };
     } catch (error) {
         console.log("ERROR", error)
