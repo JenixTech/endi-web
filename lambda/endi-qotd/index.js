@@ -11,10 +11,12 @@ exports.handler = async (event) => {
     try {
         const dbClient = new DynamoDBClient({ region: "us-east-2" });
 
+        const date = decodeURIComponent(event.queryStringParameters.date);
+
         const params = {
           TableName: "endi_qotd",
           Key: marshall({
-            date: event.queryStringParameters.date
+            date
           })
         };
         
