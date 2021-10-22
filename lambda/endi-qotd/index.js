@@ -10,8 +10,16 @@ exports.handler = async (event) => {
     };
     try {
         const dbClient = new DynamoDBClient({ region: "us-east-2" });
-
-        const date = decodeURIComponent(event.queryStringParameters.date);
+        let date;
+        if (event.queryStringParameters) {
+          date = decodeURIComponent(event.queryStringParameters.date)
+        } else {
+          const dateObj = new Date();
+          const day = dateObj.getDate();
+          const month = dateObj.getMonth();
+          const monthMap = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+          date = `${day} ${monthMap[month]}`;
+        }
 
         const params = {
           TableName: "endi_qotd",
