@@ -1,0 +1,64 @@
+.privacy-policy, .terms-of-service h1, .privacy-policy, .terms-of-service h2, .privacy-policy, .terms-of-service h3, .privacy-policy, .terms-of-service h4, .privacy-policy, .terms-of-service h5, .privacy-policy, .terms-of-service h6, .privacy-policy, .terms-of-service p {
+  margin: 0;
+}
+
+.privacy-policy, .terms-of-service h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.privacy-policy, .terms-of-service h2 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.privacy-policy, .terms-of-service h3 {
+  font-size: 1.5rem;
+}
+
+.privacy-policy, .terms-of-service h4 {
+  font-size: 1.25rem;
+}
+
+.privacy-policy, .terms-of-service h5 {
+  font-size: 1.1rem;
+}
+
+.privacy-policy, .terms-of-service p {
+  margin-bottom: 20px;
+}
+
+.privacy-policy, .terms-of-service ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.privacy-policy, .terms-of-service a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.privacy-policy, .terms-of-service a:visited {
+	color: rgb(0,80,160);
+}
+
+.privacy-policy, .terms-of-service label {
+	display: block;
+}
+
+.privacy-policy, .terms-of-service {
+  padding: 0 10px;
+  max-width: 1000px;
+  margin: 60px auto 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .privacy-policy, .terms-of-service {
+    margin: 40px auto 140px auto;
+  }
+}
