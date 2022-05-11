@@ -23,16 +23,16 @@ export default function PrivacyPolicy() {
     <p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
     </li>
     <li>
-    <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+    <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &ldquo;control&ldquo; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
     </li>
     <li>
-    <p><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named ENdi (or 'My ENdi')</p>
+    <p><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named ENdi (or &lsquo;My ENdi&lsquo;)</p>
     </li>
     <li>
-    <p><strong>Business</strong>, for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California.</p>
+    <p><strong>Business</strong>, for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers&lsquo; personal information and determines the purposes and means of the processing of Consumers&lsquo; personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers&lsquo; personal information, that does business in the State of California.</p>
     </li>
     <li>
-    <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Jenix Technologies Ltd, Office 1, Westhouse Farm, Wheldrake Lane, Elvington, Y041 4AZ.</p>
+    <p><strong>Company</strong> (referred to as either &ldquo;the Company&ldquo;, &ldquo;We&ldquo;, &ldquo;Us&ldquo; or &ldquo;Our&ldquo; in this Agreement) refers to Jenix Technologies Ltd, Office 1, Westhouse Farm, Wheldrake Lane, Elvington, Y041 4AZ.</p>
     <p>For the purpose of the GDPR, the Company is the Data Controller.</p>
     </li>
     <li>
@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
     <p><strong>Do Not Track</strong> (DNT) is a concept that has been promoted by US regulatory authorities, in particular the U.S. Federal Trade Commission (FTC), for the Internet industry to develop and implement a mechanism for allowing internet users to control the tracking of their online activities across websites.</p>
     </li>
     <li>
-    <p><strong>Facebook Fan Page</strong> is a public profile named ENdi Facebook Page specifically created by the Company on the Facebook social network, accessible from <a href="https://facebook.com/myendiapp" rel="external nofollow noopener" target="_blank">https://facebook.com/myendiapp</a></p>
+    <p><strong>Facebook Fan Page</strong> is a public profile named ENdi Facebook Page specifically created by the Company on the Facebook social network, accessible from <a href="https://facebook.com/myendiapp" rel="external nofollow noopener noreferrer" target="_blank">https://facebook.com/myendiapp</a></p>
     </li>
     <li>
     <p><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</p>
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
     <p>For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You.</p>
     </li>
     <li>
-    <p><strong>Sale</strong>, for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's personal information to another business or a third party for monetary or other valuable consideration.</p>
+    <p><strong>Sale</strong>, for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer&lsquo;s personal information to another business or a third party for monetary or other valuable consideration.</p>
     </li>
     <li>
     <p><strong>Service</strong> refers to the Application.</p>
@@ -93,16 +93,16 @@ export default function PrivacyPolicy() {
     </ul>
     <h3>Usage Data</h3>
     <p>Usage Data is collected automatically when using the Service.</p>
-    <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+    <p>Usage Data may include information such as Your Device&lsquo;s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
     <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
     <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
     <h3>Information Collected while Using the Application</h3>
     <p>While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:</p>
     <ul>
-    <li>Information from your Device's phone book (contacts list)</li>
-    <li>Pictures and other information from your Device's camera and photo library</li>
+    <li>Information from your Device&lsquo;s phone book (contacts list)</li>
+    <li>Pictures and other information from your Device&lsquo;s camera and photo library</li>
     </ul>
-    <p>We use this information to provide features of Our Service, to improve and customize Our Service. The information may be uploaded to the Company's servers and/or a Service Provider's server or it may be simply stored on Your device.</p>
+    <p>We use this information to provide features of Our Service, to improve and customize Our Service. The information may be uploaded to the Company&lsquo;s servers and/or a Service Provider&lsquo;s server or it may be simply stored on Your device.</p>
     <p>You can enable or disable access to this information at any time, through Your Device settings.</p>
     <h2>Use of Your Personal Data</h2>
     <p>The Company may use Personal Data for the following purposes:</p>
@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
     <p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p>
     </li>
     <li>
-    <p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p>
+    <p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application&lsquo;s push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p>
     </li>
     <li>
     <p><strong>To provide You</strong> with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</p>
@@ -145,7 +145,7 @@ export default function PrivacyPolicy() {
     <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
     <p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p>
     <h2>Transfer of Your Personal Data</h2>
-    <p>Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p>
+    <p>Your information, including Personal Data, is processed at the Company&lsquo;s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p>
     <p>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p>
     <p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p>
     <h2>Disclosure of Your Personal Data</h2>
@@ -172,15 +172,15 @@ export default function PrivacyPolicy() {
     <li>
     <p><strong>Google Analytics</strong></p>
     <p>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.</p>
-    <p>You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy: <a href="https://policies.google.com/privacy" rel="external nofollow noopener" target="_blank">https://policies.google.com/privacy</a></p>
-    <p>For more information on the privacy practices of Google, please visit the Google Privacy &amp; Terms web page: <a href="https://policies.google.com/privacy" rel="external nofollow noopener" target="_blank">https://policies.google.com/privacy</a></p>
+    <p>You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy: <a href="https://policies.google.com/privacy" rel="external nofollow noopener noreferrer" target="_blank">https://policies.google.com/privacy</a></p>
+    <p>For more information on the privacy practices of Google, please visit the Google Privacy &amp; Terms web page: <a href="https://policies.google.com/privacy" rel="external nofollow noopener noreferrer" target="_blank">https://policies.google.com/privacy</a></p>
     </li>
     <li>
     <p><strong>Firebase</strong></p>
     <p>Firebase is an analytics service provided by Google Inc.</p>
-    <p>You may opt-out of certain Firebase features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy: <a href="https://policies.google.com/privacy" rel="external nofollow noopener" target="_blank">https://policies.google.com/privacy</a></p>
-    <p>We also encourage you to review the Google's policy for safeguarding your data: <a href="https://support.google.com/analytics/answer/6004245" rel="external nofollow noopener" target="_blank">https://support.google.com/analytics/answer/6004245</a></p>
-    <p>For more information on what type of information Firebase collects, please visit the How Google uses data when you use our partners' sites or apps webpage: <a href="https://policies.google.com/technologies/partner-sites" rel="external nofollow noopener" target="_blank">https://policies.google.com/technologies/partner-sites</a></p>
+    <p>You may opt-out of certain Firebase features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy: <a href="https://policies.google.com/privacy" rel="external nofollow noopener noreferrer" target="_blank">https://policies.google.com/privacy</a></p>
+    <p>We also encourage you to review the Google&lsquo;s policy for safeguarding your data: <a href="https://support.google.com/analytics/answer/6004245" rel="external nofollow noopener noreferrer" target="_blank">https://support.google.com/analytics/answer/6004245</a></p>
+    <p>For more information on what type of information Firebase collects, please visit the How Google uses data when you use our partners&lsquo; sites or apps webpage: <a href="https://policies.google.com/technologies/partner-sites" rel="external nofollow noopener noreferrer" target="_blank">https://policies.google.com/technologies/partner-sites</a></p>
     </li>
     </ul>
     <h2>Email Marketing</h2>
@@ -190,7 +190,7 @@ export default function PrivacyPolicy() {
     <li>
     <p><strong>Mailchimp</strong></p>
     <p>Mailchimp is an email marketing sending service provided by The Rocket Science Group LLC.</p>
-    <p>For more information on the privacy practices of Mailchimp, please visit their Privacy policy: <a href="https://mailchimp.com/legal/privacy/" rel="external nofollow noopener" target="_blank">https://mailchimp.com/legal/privacy/</a></p>
+    <p>For more information on the privacy practices of Mailchimp, please visit their Privacy policy: <a href="https://mailchimp.com/legal/privacy/" rel="external nofollow noopener noreferrer" target="_blank">https://mailchimp.com/legal/privacy/</a></p>
     </li>
     </ul>
     <h2>Payments</h2>
@@ -199,11 +199,11 @@ export default function PrivacyPolicy() {
     <ul>
     <li>
     <p><strong>Apple Store In-App Payments</strong></p>
-    <p>Their Privacy Policy can be viewed at <a href="https://www.apple.com/legal/privacy/en-ww/" rel="external nofollow noopener" target="_blank">https://www.apple.com/legal/privacy/en-ww/</a></p>
+    <p>Their Privacy Policy can be viewed at <a href="https://www.apple.com/legal/privacy/en-ww/" rel="external nofollow noopener noreferrer" target="_blank">https://www.apple.com/legal/privacy/en-ww/</a></p>
     </li>
     <li>
     <p><strong>Google Play In-App Payments</strong></p>
-    <p>Their Privacy Policy can be viewed at <a href="https://www.google.com/policies/privacy/" rel="external nofollow noopener" target="_blank">https://www.google.com/policies/privacy/</a></p>
+    <p>Their Privacy Policy can be viewed at <a href="https://www.google.com/policies/privacy/" rel="external nofollow noopener noreferrer" target="_blank">https://www.google.com/policies/privacy/</a></p>
     </li>
     </ul>
     <h1>GDPR Privacy</h1>
@@ -234,14 +234,14 @@ export default function PrivacyPolicy() {
     <p>You have the right to complain to a Data Protection Authority about Our collection and use of Your Personal Data. For more information, if You are in the European Economic Area (EEA), please contact Your local data protection authority in the EEA.</p>
     <h1>Facebook Fan Page</h1>
     <h2>Data Controller for the Facebook Fan Page</h2>
-    <p>The Company is the Data Controller of Your Personal Data collected while using the Service. As operator of the Facebook Fan Page <a href="https://facebook.com/myendiapp" rel="external nofollow noopener" target="_blank">https://facebook.com/myendiapp</a>, the Company and the operator of the social network Facebook are Joint Controllers.</p>
-    <p>The Company has entered into agreements with Facebook that define the terms for use of the Facebook Fan Page, among other things. These terms are mostly based on the Facebook Terms of Service: <a href="https://www.facebook.com/terms.php" rel="external nofollow noopener" target="_blank">https://www.facebook.com/terms.php</a></p>
-    <p>Visit the Facebook Privacy Policy <a href="https://www.facebook.com/policy.php" rel="external nofollow noopener" target="_blank">https://www.facebook.com/policy.php</a> for more information about how Facebook manages Personal data or contact Facebook online, or by mail: Facebook, Inc. ATTN, Privacy Operations, 1601 Willow Road, Menlo Park, CA 94025, United States.</p>
+    <p>The Company is the Data Controller of Your Personal Data collected while using the Service. As operator of the Facebook Fan Page <a href="https://facebook.com/myendiapp" rel="external nofollow noopener noreferrer" target="_blank">https://facebook.com/myendiapp</a>, the Company and the operator of the social network Facebook are Joint Controllers.</p>
+    <p>The Company has entered into agreements with Facebook that define the terms for use of the Facebook Fan Page, among other things. These terms are mostly based on the Facebook Terms of Service: <a href="https://www.facebook.com/terms.php" rel="external nofollow noopener noreferrer" target="_blank">https://www.facebook.com/terms.php</a></p>
+    <p>Visit the Facebook Privacy Policy <a href="https://www.facebook.com/policy.php" rel="external nofollow noopener noreferrer" target="_blank">https://www.facebook.com/policy.php</a> for more information about how Facebook manages Personal data or contact Facebook online, or by mail: Facebook, Inc. ATTN, Privacy Operations, 1601 Willow Road, Menlo Park, CA 94025, United States.</p>
     <h2>Facebook Insights</h2>
     <p>We use the Facebook Insights function in connection with the operation of the Facebook Fan Page and on the basis of the GDPR, in order to obtain anonymized statistical data about Our users.</p>
     <p>For this purpose, Facebook places a Cookie on the device of the user visiting Our Facebook Fan Page. Each Cookie contains a unique identifier code and remains active for a period of two years, except when it is deleted before the end of this period.</p>
     <p>Facebook receives, records and processes the information stored in the Cookie, especially when the user visits the Facebook services, services that are provided by other members of the Facebook Fan Page and services by other companies that use Facebook services.</p>
-    <p>For more information on the privacy practices of Facebook, please visit Facebook Privacy Policy here: <a href="https://www.facebook.com/full_data_use_policy" rel="external nofollow noopener" target="_blank">https://www.facebook.com/full_data_use_policy</a></p>
+    <p>For more information on the privacy practices of Facebook, please visit Facebook Privacy Policy here: <a href="https://www.facebook.com/full_data_use_policy" rel="external nofollow noopener noreferrer" target="_blank">https://www.facebook.com/full_data_use_policy</a></p>
     <h1>CCPA Privacy</h1>
     <p>This privacy notice section for California residents supplements the information contained in Our Privacy Policy and it applies solely to all visitors, users, and others who reside in the State of California.</p>
     <h2>Categories of Personal Information Collected</h2>
@@ -250,12 +250,12 @@ export default function PrivacyPolicy() {
     <ul>
     <li>
     <p><strong>Category A: Identifiers.</strong></p>
-    <p>Examples: A real name, alias, postal address, unique personal identifier, online identifier, Internet Protocol address, email address, account name, driver's license number, passport number, or other similar identifiers.</p>
+    <p>Examples: A real name, alias, postal address, unique personal identifier, online identifier, Internet Protocol address, email address, account name, driver&lsquo;s license number, passport number, or other similar identifiers.</p>
     <p>Collected: Yes.</p>
     </li>
     <li>
     <p><strong>Category B: Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e)).</strong></p>
-    <p>Examples: A name, signature, Social Security number, physical characteristics or description, address, telephone number, passport number, driver's license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. Some personal information included in this category may overlap with other categories.</p>
+    <p>Examples: A name, signature, Social Security number, physical characteristics or description, address, telephone number, passport number, driver&lsquo;s license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. Some personal information included in this category may overlap with other categories.</p>
     <p>Collected: Yes.</p>
     </li>
     <li>
@@ -300,7 +300,7 @@ export default function PrivacyPolicy() {
     </li>
     <li>
     <p><strong>Category K: Inferences drawn from other personal information.</strong></p>
-    <p>Examples: Profile reflecting a person's preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, and aptitudes.</p>
+    <p>Examples: Profile reflecting a person&lsquo;s preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, and aptitudes.</p>
     <p>Collected: No.</p>
     </li>
     </ul>
@@ -308,10 +308,10 @@ export default function PrivacyPolicy() {
     <ul>
     <li>Publicly available information from government records</li>
     <li>Deidentified or aggregated consumer information</li>
-    <li>Information excluded from the CCPA's scope, such as:
+    <li>Information excluded from the CCPA&lsquo;s scope, such as:
     <ul>
     <li>Health or medical information covered by the Health Insurance Portability and Accountability Act of 1996 (HIPAA) and the California Confidentiality of Medical Information Act (CMIA) or clinical trial data</li>
-    <li>Personal Information covered by certain sector-specific privacy laws, including the Fair Credit Reporting Act (FRCA), the Gramm-Leach-Bliley Act (GLBA) or California Financial Information Privacy Act (FIPA), and the Driver's Privacy Protection Act of 1994</li>
+    <li>Personal Information covered by certain sector-specific privacy laws, including the Fair Credit Reporting Act (FRCA), the Gramm-Leach-Bliley Act (GLBA) or California Financial Information Privacy Act (FIPA), and the Driver&lsquo;s Privacy Protection Act of 1994</li>
     </ul>
     </li>
     </ul>
@@ -324,7 +324,7 @@ export default function PrivacyPolicy() {
     <li><strong>From Service Providers</strong>. For example, third-party vendors to monitor and analyze the use of our Service, third-party vendors for payment processing, or other third-party vendors that We use to provide the Service to You.</li>
     </ul>
     <h2>Use of Personal Information for Business Purposes or Commercial Purposes</h2>
-    <p>We may use or disclose personal information We collect for &quot;business purposes&quot; or &quot;commercial purposes&quot; (as defined under the CCPA), which may include the following examples:</p>
+    <p>We may use or disclose personal information We collect for &ldquo;business purposes&ldquo; or &ldquo;commercial purposes&ldquo; (as defined under the CCPA), which may include the following examples:</p>
     <ul>
     <li>To operate our Service and provide You with our Service.</li>
     <li>To provide You with support and to respond to Your inquiries, including to investigate and address Your concerns and monitor and improve our Service.</li>
@@ -334,7 +334,7 @@ export default function PrivacyPolicy() {
     <li>For internal administrative and auditing purposes.</li>
     <li>To detect security incidents and protect against malicious, deceptive, fraudulent or illegal activity, including, when necessary, to prosecute those responsible for such activities.</li>
     </ul>
-    <p>Please note that the examples provided above are illustrative and not intended to be exhaustive. For more details on how we use this information, please refer to the &quot;Use of Your Personal Data&quot; section.</p>
+    <p>Please note that the examples provided above are illustrative and not intended to be exhaustive. For more details on how we use this information, please refer to the &ldquo;Use of Your Personal Data&ldquo; section.</p>
     <p>If We decide to collect additional categories of personal information or use the personal information We collected for materially different, unrelated, or incompatible purposes We will update this Privacy Policy.</p>
     <h2>Disclosure of Personal Information for Business Purposes or Commercial Purposes</h2>
     <p>We may use or disclose and may have used or disclosed in the last twelve (12) months the following categories of personal information for business or commercial purposes:</p>
@@ -347,7 +347,7 @@ export default function PrivacyPolicy() {
     <p>Please note that the categories listed above are those defined in the CCPA. This does not mean that all examples of that category of personal information were in fact disclosed, but reflects our good faith belief to the best of our knowledge that some of that information from the applicable category may be and may have been disclosed.</p>
     <p>When We disclose personal information for a business purpose or a commercial purpose, We enter a contract that describes the purpose and requires the recipient to both keep that personal information confidential and not use it for any purpose except performing the contract.</p>
     <h2>Sale of Personal Information</h2>
-    <p>As defined in the CCPA, &quot;sell&quot; and &quot;sale&quot; mean selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a consumer's personal information by the business to a third party for valuable consideration. This means that We may have received some kind of benefit in return for sharing personal Iinformation, but not necessarily a monetary benefit.</p>
+    <p>As defined in the CCPA, &ldquo;sell&ldquo; and &ldquo;sale&ldquo; mean selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a consumer&lsquo;s personal information by the business to a third party for valuable consideration. This means that We may have received some kind of benefit in return for sharing personal Iinformation, but not necessarily a monetary benefit.</p>
     <p>Please note that the categories listed below are those defined in the CCPA. This does not mean that all examples of that category of personal information were in fact sold, but reflects our good faith belief to the best of our knowledge that some of that information from the applicable category may be and may have been shared for value in return.</p>
     <p>We may sell and may have sold in the last twelve (12) months the following categories of personal information:</p>
     <ul>
@@ -366,7 +366,7 @@ export default function PrivacyPolicy() {
     <li>Third party vendors to whom You or Your agents authorize Us to disclose Your personal information in connection with products or services We provide to You</li>
     </ul>
     <h2>Sale of Personal Information of Minors Under 16 Years of Age</h2>
-    <p>We do not sell the personal information of Consumers We actually know are less than 16 years of age, unless We receive affirmative authorization (the &quot;right to opt-in&quot;) from either the Consumer who is between 13 and 16 years of age, or the parent or guardian of a Consumer less than 13 years of age. Consumers who opt-in to the sale of personal information may opt-out of future sales at any time. To exercise the right to opt-out, You (or Your authorized representative) may submit a request to Us by contacting Us.</p>
+    <p>We do not sell the personal information of Consumers We actually know are less than 16 years of age, unless We receive affirmative authorization (the &ldquo;right to opt-in&ldquo;) from either the Consumer who is between 13 and 16 years of age, or the parent or guardian of a Consumer less than 13 years of age. Consumers who opt-in to the sale of personal information may opt-out of future sales at any time. To exercise the right to opt-out, You (or Your authorized representative) may submit a request to Us by contacting Us.</p>
     <p>If You have reason to believe that a child under the age of 13 (or 16) has provided Us with personal information, please contact Us with sufficient detail to enable Us to delete that information.</p>
     <h2>Your Rights under the CCPA</h2>
     <p>The CCPA provides California residents with specific rights regarding their personal information. If You are a resident of California, You have the following rights:</p>
@@ -395,13 +395,13 @@ export default function PrivacyPolicy() {
     <li>Debug products to identify and repair errors that impair existing intended functionality.</li>
     <li>Exercise free speech, ensure the right of another consumer to exercise their free speech rights, or exercise another right provided for by law.</li>
     <li>Comply with the California Electronic Communications Privacy Act (Cal. Penal Code § 1546 et. seq.).</li>
-    <li>Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when the information's deletion may likely render impossible or seriously impair the research's achievement, if You previously provided informed consent.</li>
+    <li>Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when the information&lsquo;s deletion may likely render impossible or seriously impair the research&lsquo;s achievement, if You previously provided informed consent.</li>
     <li>Enable solely internal uses that are reasonably aligned with consumer expectations based on Your relationship with Us.</li>
     <li>Comply with a legal obligation.</li>
     <li>Make other internal and lawful uses of that information that are compatible with the context in which You provided it.</li>
     </ul>
     </li>
-    <li><strong>The right not to be discriminated against.</strong> You have the right not to be discriminated against for exercising any of Your consumer's rights, including by:
+    <li><strong>The right not to be discriminated against.</strong> You have the right not to be discriminated against for exercising any of Your consumer&lsquo;s rights, including by:
     <ul>
     <li>Denying goods or services to You</li>
     <li>Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties</li>
@@ -417,7 +417,7 @@ export default function PrivacyPolicy() {
     <p>By email: <a href="mailto:info@jenixtech.com?subject=Privacy Policy (ENdi)" className="__cf_email__" data-cfemail="234a4d454c634f464e4e4a404b42570d404c4e">info@jenixtech.com</a></p>
     </li>
     <li>
-    <p>By visiting this page on our website: <a href="http://www.myendiapp.com/contact" rel="external nofollow noopener" target="_blank">http://www.myendiapp.com/contact</a></p>
+    <p>By visiting this page on our website: <a href="http://www.myendiapp.com/contact" rel="external nofollow noopener noreferrer" target="_blank">http://www.myendiapp.com/contact</a></p>
     </li>
     </ul>
     <p>Only You, or a person registered with the California Secretary of State that You authorize to act on Your behalf, may make a verifiable request related to Your personal information.</p>
@@ -432,7 +432,7 @@ export default function PrivacyPolicy() {
     <li>And confirm that the personal information relates to You</li>
     </ul>
     <p>We will disclose and deliver the required information free of charge within 45 days of receiving Your verifiable request. The time period to provide the required information may be extended once by an additional 45 days when reasonable necessary and with prior notice.</p>
-    <p>Any disclosures We provide will only cover the 12-month period preceding the verifiable request's receipt.</p>
+    <p>Any disclosures We provide will only cover the 12-month period preceding the verifiable request&lsquo;s receipt.</p>
     <p>For data portability requests, We will select a format to provide Your personal information that is readily useable and should allow You to transmit the information from one entity to another entity without hindrance.</p>
     <h2>Do Not Sell My Personal Information</h2>
     <p>You have the right to opt-out of the sale of Your personal information. Once We receive and confirm a verifiable consumer request from You, we will stop selling Your personal information. To exercise Your right to opt-out, please contact Us.</p>
@@ -441,34 +441,34 @@ export default function PrivacyPolicy() {
     <h3>Website</h3>
     <p>You can opt out of receiving ads that are personalized as served by our Service Providers by following our instructions presented on the Service:</p>
     <ul>
-    <li>The NAI's opt-out platform: <a href="http://www.networkadvertising.org/choices/" rel="external nofollow noopener" target="_blank">http://www.networkadvertising.org/choices/</a></li>
-    <li>The EDAA's opt-out platform <a href="http://www.youronlinechoices.com/" rel="external nofollow noopener" target="_blank">http://www.youronlinechoices.com/</a></li>
-    <li>The DAA's opt-out platform: <a href="http://optout.aboutads.info/?c=2&amp;lang=EN" rel="external nofollow noopener" target="_blank">http://optout.aboutads.info/?c=2&amp;lang=EN</a></li>
+    <li>The NAI&lsquo;s opt-out platform: <a href="http://www.networkadvertising.org/choices/" rel="external nofollow noopener noreferrer" target="_blank">http://www.networkadvertising.org/choices/</a></li>
+    <li>The EDAA&lsquo;s opt-out platform <a href="http://www.youronlinechoices.com/" rel="external nofollow noopener noreferrer" target="_blank">http://www.youronlinechoices.com/</a></li>
+    <li>The DAA&lsquo;s opt-out platform: <a href="http://optout.aboutads.info/?c=2&amp;lang=EN" rel="external nofollow noopener noreferrer" target="_blank">http://optout.aboutads.info/?c=2&amp;lang=EN</a></li>
     </ul>
     <p>The opt out will place a cookie on Your computer that is unique to the browser You use to opt out. If you change browsers or delete the cookies saved by your browser, You will need to opt out again.</p>
     <h3>Mobile Devices</h3>
     <p>Your mobile device may give You the ability to opt out of the use of information about the apps You use in order to serve You ads that are targeted to Your interests:</p>
     <ul>
-    <li>&quot;Opt out of Interest-Based Ads&quot; or &quot;Opt out of Ads Personalization&quot; on Android devices</li>
-    <li>&quot;Limit Ad Tracking&quot; on iOS devices</li>
+    <li>&ldquo;Opt out of Interest-Based Ads&ldquo; or &ldquo;Opt out of Ads Personalization&ldquo; on Android devices</li>
+    <li>&ldquo;Limit Ad Tracking&ldquo; on iOS devices</li>
     </ul>
     <p>You can also stop the collection of location information from Your mobile device by changing the preferences on Your mobile device.</p>
-    <h1>&quot;Do Not Track&quot; Policy as Required by California Online Privacy Protection Act (CalOPPA)</h1>
+    <h1>&ldquo;Do Not Track&ldquo; Policy as Required by California Online Privacy Protection Act (CalOPPA)</h1>
     <p>Our Service does not respond to Do Not Track signals.</p>
     <p>However, some third party websites do keep track of Your browsing activities. If You are visiting such websites, You can set Your preferences in Your web browser to inform websites that You do not want to be tracked. You can enable or disable DNT by visiting the preferences or settings page of Your web browser.</p>
-    <h1>Your California Privacy Rights (California's Shine the Light law)</h1>
-    <p>Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.</p>
-    <p>If you'd like to request more information under the California Shine the Light law, and if You are a California resident, You can contact Us using the contact information provided below.</p>
+    <h1>Your California Privacy Rights (California&lsquo;s Shine the Light law)</h1>
+    <p>Under California Civil Code Section 1798 (California&lsquo;s Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties&lsquo; direct marketing purposes.</p>
+    <p>If you&lsquo;d like to request more information under the California Shine the Light law, and if You are a California resident, You can contact Us using the contact information provided below.</p>
     <h1>California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)</h1>
     <p>California Business and Professions Code section 22581 allow California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.</p>
     <p>To request removal of such data, and if You are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.</p>
     <p>Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.</p>
     <h1>Links to Other Websites</h1>
-    <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
+    <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party&lsquo;s site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
     <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
     <h1>Changes to this Privacy Policy</h1>
     <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
-    <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
+    <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &ldquo;Last updated&ldquo; date at the top of this Privacy Policy.</p>
     <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
     <h1>Contact Us</h1>
     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
@@ -477,9 +477,9 @@ export default function PrivacyPolicy() {
     <p>By email: <a href="mailto:info@jenixtech.com?subject=Privacy Policy (ENdi)" className="__cf_email__" data-cfemail="234a4d454c634f464e4e4a404b42570d404c4e">info@jenixtech.com</a></p>
     </li>
     <li>
-    <p>By visiting this page on our website: <a href="http://www.myendiapp.com/contact" rel="external nofollow noopener" target="_blank">http://www.myendiapp.com/contact</a></p>
+    <p>By visiting this page on our website: <a href="http://www.myendiapp.com/contact" rel="external nofollow noopener noreferrer" target="_blank">http://www.myendiapp.com/contact</a></p>
     </li>
-    </ul><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    </ul>
   </div>
   )
 }
