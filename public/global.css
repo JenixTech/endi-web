@@ -1,40 +1,40 @@
-.privacy-policy, .terms-of-service h1, .privacy-policy, .terms-of-service h2, .privacy-policy, .terms-of-service h3, .privacy-policy, .terms-of-service h4, .privacy-policy, .terms-of-service h5, .privacy-policy, .terms-of-service h6, .privacy-policy, .terms-of-service p {
+.privacy-policy h1, .terms-of-service h1, .privacy-policy h2, .terms-of-service h2, .privacy-policy h3, .terms-of-service h3, .privacy-policy h4, .terms-of-service h4, .privacy-policy h5, .terms-of-service h5, .privacy-policy h6, .terms-of-service h6, .privacy-policy p, .terms-of-service p {
   margin: 0;
 }
 
-.privacy-policy, .terms-of-service h1 {
+.privacy-policy h1, .terms-of-service h1 {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.privacy-policy, .terms-of-service h2 {
+.privacy-policy h2, .terms-of-service h2 {
   font-size: 1.75rem;
   margin-bottom: 20px;
 }
 
-.privacy-policy, .terms-of-service h3 {
+.privacy-policy h3, .terms-of-service h3 {
   font-size: 1.5rem;
 }
 
-.privacy-policy, .terms-of-service h4 {
+.privacy-policy h4, .terms-of-service h4 {
   font-size: 1.25rem;
 }
 
-.privacy-policy, .terms-of-service h5 {
+.privacy-policy h5, .terms-of-service h5 {
   font-size: 1.1rem;
 }
 
-.privacy-policy, .terms-of-service p {
+.privacy-policy pattern, .terms-of-service p {
   margin-bottom: 20px;
 }
 
-.privacy-policy, .terms-of-service ul {
+.privacy-policy ul, .terms-of-service ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.privacy-policy, .terms-of-service a {
+.privacy-policy a, .terms-of-service a {
 	color: rgb(0,100,200);
 	text-decoration: none;
 }
@@ -43,11 +43,11 @@ a:hover {
 	text-decoration: underline;
 }
 
-.privacy-policy, .terms-of-service a:visited {
+.privacy-policy a:visited, .terms-of-service a:visited {
 	color: rgb(0,80,160);
 }
 
-.privacy-policy, .terms-of-service label {
+.privacy-policy label, .terms-of-service label {
 	display: block;
 }
 
