@@ -13,6 +13,7 @@ export default function NavBar() {
       maxWidth='1000px'
       margin='0 auto'
       flexDirection="row"
+      paddingX="1rem"
       paddingY='2.5rem'
       alignItems='center'
       justifyContent='space-between'
@@ -36,7 +37,6 @@ export default function NavBar() {
         <Flex
           flexDirection="row"
           alignItems='center'
-          paddingX="1rem"
         >
           <HStack spacing="2rem">
             <NextLink href="/" passHref>

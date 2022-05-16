@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { 
-  HStack, 
+  HStack,
+  VStack, 
   Center, 
   Flex, 
   Text, 
   Heading, 
   Box, 
-  Input, 
-  Button,
+  Link, 
   Image
 } from '@chakra-ui/react';
 import Head from 'next/head';
@@ -68,81 +68,49 @@ export default function Home() {
       </Head>
       <NavBar />
       <Flex 
-        height='100vh'
-        maxWidth='1000px'
+        maxWidth='900px'
         flexDirection="column"
-        margin='0 auto'
+        margin='2rem auto 0 auto'
       >
         <Box flexGrow={2}>
           <main>
             <ResponsiveStack 
               stackProps={{
                 horizontal: !!(size.width && size.width > 710), 
-                spacing: "0px",
-                height: "100%"
+                spacing: "0px"
               }}
             >
+              <VStack 
+                width={(size.width && size.width > 710) ? 2/3 : "100%"} 
+                align="flex-start"
+                spacing="2.5rem"
+                paddingX="1rem"
+                height="100%"
+              >
+                <Text fontWeight="bold" fontSize="2xl">Your personal Endometriosis assistant.</Text>
+                <Text fontWeight="bold" fontSize="2xl">A no nonsense symptom tracker and daily record journal.</Text>
+                <Link href="">
+                  <Image 
+                    src="/images/app-store.svg"
+                    alt="Download on the App Store icon"
+                    height="4rem"
+                  />
+                </Link>
+              </VStack>
               <Center 
-                minWidth={(size.width && size.width < 900) ? "" : "500px"}
+                minWidth={(size.width && size.width < 900) ? "" : "300px"}
                 width={(size.width && size.width > 710) ? 1/3 : "100%"} 
                 height={(size.width && size.width > 710) ? "100%" : "50%"} 
-                bg="brand.secondary" 
                 alignItems="center"
               >
                 <Image
                   fallback={<Box maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} />}
-                  src="/endi_screenshot.png"
-                  alt="ENdi screenshot on iOS"
-                  loading="eager"
+                  src="/images/landing-screen.png"
+                  alt="ENdi landing screen screenshot on iOS"
+                  loading="lazy"
                   maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} 
                 />
               </Center>
-              <Flex 
-                width={(size.width && size.width > 710) ? 2/3 : "100%"} 
-                height="100%" 
-                justifyContent="center"
-                flexDirection="column"
-                padding="3rem"
-              >
-                <Text fontWeight="bold" fontSize="2xl">A mobile app for iOS and Android</Text>
-                <Heading 
-                  as="h1" 
-                  size={(size.width && size.width < 340) ? "3xl" : "4xl"} 
-                  marginY="1rem"
-                  color="white"
-                  textTransform="uppercase"
-                >
-                  Coming Soon!
-                </Heading>
-                <Text fontWeight="bold" fontSize="2xl">Enter your email and we&rsquo;ll send you a link as soon as it&rsquo;s available.</Text>
-                <Text height="1.5rem" marginTop="1.5rem" color={subscribeError ? 'red' : 'black'}>{subscribeMessage}</Text>
-                <ResponsiveStack
-                  stackProps={{
-                    horizontal: !!(size.width && size.width > 1234),
-                    marginY: "0.5rem",
-                    alignItems: "flex-start"
-                  }}
-                >
-                  <Input 
-                    placeholder="Your email address" 
-                    value={email}
-                    onChange={handleChange}
-                    maxWidth="30rem" 
-                    background="white"
-                    border="none"
-                    size="lg"
-                  />
-                  <Button 
-                    colorScheme="red"
-                    size="lg"
-                    onClick={() => subscribe()}
-                    isLoading={subscribing}
-                    loadingText="Submitting"
-                  >
-                    Let Me Know!
-                  </Button>
-                </ResponsiveStack>
-              </Flex>
             </ResponsiveStack>
           </main>
         </Box>

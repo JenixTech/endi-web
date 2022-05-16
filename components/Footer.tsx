@@ -16,6 +16,7 @@ export default function Footer() {
         flexDirection="column"
         margin='0 auto'
         paddingY="3rem"
+        paddingX="1.5rem"
         fontWeight="medium"
         color="grey.50"
       >
