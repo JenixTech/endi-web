@@ -8,12 +8,14 @@ import {
   Box, 
   Input, 
   Button,
-  Img
+  Image
 } from '@chakra-ui/react';
 import Head from 'next/head';
 
 import ResponsiveStack from '../components/ResponsiveStack';
 import {Size, useWindowSize} from '../hooks/useWindowSize';
+import Footer from '../components/Footer';
+import NavBar from '../components/NavBar';
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -59,15 +61,17 @@ export default function Home() {
   // IF WINDOW IS LESS THAN 710, CHANGE TO VERTICAL LAYOUT
 
   return (
-    <div>
+    <Box>
       <Head>
         <title>ENdi</title>
         <meta name="description" content="ENdi: Your personal endometriosis diary" />
       </Head>
-      
+      <NavBar />
       <Flex 
-        height='100vh' 
+        height='100vh'
+        maxWidth='1000px'
         flexDirection="column"
+        margin='0 auto'
       >
         <Box flexGrow={2}>
           <main>
@@ -85,7 +89,7 @@ export default function Home() {
                 bg="brand.secondary" 
                 alignItems="center"
               >
-                <Img
+                <Image
                   fallback={<Box maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} />}
                   src="/endi_screenshot.png"
                   alt="ENdi screenshot on iOS"
@@ -142,15 +146,8 @@ export default function Home() {
             </ResponsiveStack>
           </main>
         </Box>
-
-        <footer>
-          <Center flexGrow={1} height="100%">
-            <HStack>
-              <Text fontSize="small" textAlign="center">&copy; 2021 Jenix Technologies LTD. All Rights Reserved.</Text>
-            </HStack>
-          </Center>
-        </footer>
       </Flex>
-    </div>
+      <Footer />
+    </Box>
   )
 }

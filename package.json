@@ -3,28 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nvm use && next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.3",
-    "@emotion/react": "^11.4.0",
-    "@emotion/styled": "^11.3.0",
-    "@fontsource/open-sans": "^4.5.0",
-    "@fontsource/roboto": "^4.5.0",
-    "framer-motion": "^4.1.17",
-    "next": "11.0.0",
-    "next-connect": "^0.10.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@chakra-ui/icons": "^2.0.0",
+    "@chakra-ui/react": "^2.0.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/open-sans": "^4.5.10",
+    "@fontsource/roboto": "^4.5.7",
+    "framer-motion": "^6.3.3",
+    "next": "12.1.6",
+    "next-connect": "^0.12.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   },
   "devDependencies": {
-    "@types/react": "17.0.11",
-    "eslint": "7.28.0",
-    "eslint-config-next": "11.0.0",
-    "fork-ts-checker-webpack-plugin": "^6.3.3",
-    "typescript": "4.3.2"
+    "@types/react": "18.0.9",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "fork-ts-checker-webpack-plugin": "^7.2.11",
+    "typescript": "4.6.4"
   }
 }
