@@ -14,17 +14,17 @@ const styles = {
     "html, body": {
       padding: 0,
       margin: 0,
-      backgroundColor: colors.brand.primary
+      backgroundColor: colors.brand.secondary
+    },
+    "header": {
+      backgroundColor: colors.brand.secondary,
+      boxShadow: "6px 6px 11px 4px rgb(24 24 24 / 7%)",
+      position: "sticky",
+      top: 0,
+      zIndex: 999
     },
     "main": {
       height: '100%'
-    },
-    "footer": {
-      minHeight: '4rem',
-      background: '#ffffff',
-      color: '#000000',
-      fontWeight: 'bold',
-      fontSize: '1.2rem',
     }
   }
 }

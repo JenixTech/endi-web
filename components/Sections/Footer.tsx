@@ -7,8 +7,12 @@ import {
   Link
 } from '@chakra-ui/react';
 import NextLink from "next/link"
+import { Size, useWindowSize } from '../../hooks/useWindowSize';
+import Logo from '../Logo';
 
 export default function Footer() {
+  const size: Size = useWindowSize();
+
   return (
     <footer>
       <Flex
@@ -18,10 +22,11 @@ export default function Footer() {
         paddingY="3rem"
         paddingX="1.5rem"
         fontWeight="medium"
-        color="grey.50"
+        color="grey.100"
+        background="brand.secondary"
       >
         <Flex
-          flexDirection="row"
+          flexDirection={(size.width && size.width > 710) ? "row" : "column"}
           marginBottom="3rem"
           justifyContent="space-between"
           fontSize="md"
@@ -29,9 +34,13 @@ export default function Footer() {
           <Flex
             alignItems="center"
           >
-            <Heading size="2xl" color="brand.accent">ENdi</Heading>
+            <Logo colored={false} />
           </Flex>
-          <VStack align="flex-start">
+          <VStack 
+            align="flex-start" 
+            marginY={(size.width && size.width > 710) ? "0px" : "1rem"}
+            paddingX={(size.width && size.width > 710) ? "0x" : "1.5rem"}
+          >
             <NextLink href="/" passHref>
               <Link>Home</Link>
             </NextLink>
@@ -42,7 +51,7 @@ export default function Footer() {
               <Link>Contact</Link>
             </NextLink>
           </VStack>
-          <VStack align="flex-start">
+          <VStack align="flex-start" paddingX={(size.width && size.width > 710) ? "0x" : "1.5rem"}>
             <NextLink href="/privacy-policy" passHref>
               <Link >Privacy Policy</Link>
             </NextLink>
