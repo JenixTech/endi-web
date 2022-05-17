@@ -5,8 +5,14 @@ import {
   Flex,
   VStack,
   Text,
-  Link
+  List,
+  ListItem,
+  ListIcon
 } from '@chakra-ui/react';
+
+import { BsCheck2Square, BsGraphUp, BsPencilSquare } from 'react-icons/bs';
+import { GrUserSettings } from 'react-icons/gr';
+
 import ResponsiveStack from '../ResponsiveStack';
 import {Size, useWindowSize} from '../../hooks/useWindowSize';
 
@@ -52,8 +58,41 @@ export default function Statistics() {
           margin="0 auto"
           height="100%"
         >
-          <Text fontWeight="bold" fontSize="4xl" color="brand.accent">Track symptoms, triggers, appointments, and more</Text>
-          <Text fontWeight="bold" fontSize="2xl">Gain a better understanding of your endometriosis for a brighter, healthier future.</Text>
+          <Text fontWeight="bold" fontSize="4xl" color="brand.accent">Build an in-depth understanding about your endometriosis.</Text>
+          <ResponsiveStack 
+            stackProps={{
+              horizontal: !!(size.width && size.width > 710), 
+              justifyContent: "space-between",
+              margin: "0 auto",
+              maxWidth: "1000px",
+              spacing: "2rem"
+            }}
+          >
+            <List spacing={5}>
+              <ListItem>
+                <ListIcon as={BsPencilSquare} w={6} h={6} />
+                <Text fontWeight="bold">Track your symptoms</Text>
+                <Text>Journal every day to see your triggers and patterns</Text>
+              </ListItem>
+              <ListItem>
+                <ListIcon as={BsGraphUp} w={6} h={6} />
+                <Text fontWeight="bold">Understand the affects</Text>
+                <Text>See direct links between your health and time off</Text>
+              </ListItem>
+            </List>
+            <List spacing={5}>
+              <ListItem>
+                <ListIcon as={GrUserSettings} w={6} h={6} />
+                <Text fontWeight="bold">Personalized to you</Text>
+                <Text>Adapt menus and data collection to your own routine and lifestyle</Text>
+              </ListItem>
+              <ListItem>
+                <ListIcon as={BsCheck2Square} w={6} h={6} />
+                <Text fontWeight="bold">No more nonsense</Text>
+                <Text>View your findings in easy-to-understand graphs and charts</Text>
+              </ListItem>
+            </List>
+          </ResponsiveStack>
           {/* <Link href="">
             <Image 
               src="/images/app-store.svg"

@@ -1,8 +1,8 @@
-import { HamburgerIcon } from '@chakra-ui/icons';
-import { Flex, Box, Heading, Image, IconButton, Menu, MenuButton, MenuItem, MenuList, HStack, Link, VStack } from '@chakra-ui/react';
+import { Flex, IconButton, Menu, MenuButton, MenuList, HStack, Link, VStack } from '@chakra-ui/react';
 import {Size, useWindowSize} from '../../hooks/useWindowSize';
 import NextLink from "next/link"
 import Logo from '../Logo';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 export default function NavBar() {
   const size: Size = useWindowSize();
@@ -45,7 +45,7 @@ export default function NavBar() {
               <MenuButton
                 as={IconButton}
                 aria-label='Options'
-                icon={<HamburgerIcon />}
+                icon={<GiHamburgerMenu />}
                 variant='ghost'
               />
               <MenuList>

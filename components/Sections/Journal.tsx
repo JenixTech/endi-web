@@ -38,8 +38,8 @@ export default function Journal() {
           height="100%"
           margin="0 auto"
         >
-          <Text fontWeight="bold" fontSize="4xl" color="brand.accent">Your personal Endometriosis assistant.</Text>
-          <Text fontWeight="bold" fontSize="2xl">A no nonsense symptom tracker and journal.</Text>
+          <Text fontWeight="bold" fontSize="4xl" color="brand.accent">Personalize your daily journal to fit your lifestyle.</Text>
+          <Text fontWeight="bold" fontSize="2xl">ENdi works with your day to day choices and keeps track of what applies to you.</Text>
           {/* <Link href="">
             <Image 
               src="/images/app-store.svg"
