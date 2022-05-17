@@ -75,6 +75,7 @@ export default function Contact() {
       background="brand.primary"
       alignItems="center"
       paddingY="2rem"
+      id="contact"
     >
       <Heading>
         Contact
