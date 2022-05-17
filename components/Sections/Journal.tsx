@@ -56,8 +56,8 @@ export default function Journal() {
         >
           <Image
             fallback={<Box maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} />}
-            src="/images/landing-screen.png"
-            alt="ENdi landing screen screenshot on iOS"
+            src="/images/journal-screen.png"
+            alt="ENdi journal settings screen screenshot on iOS"
             loading="lazy"
             maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} 
           />

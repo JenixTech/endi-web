@@ -5,6 +5,7 @@ export default function Logo({ colored }: { colored: boolean }) {
   const size: Size = useWindowSize();
 
   const logoImage = colored ? "logo" : "logo-b&w";
+  const textColor = colored ? "brand.accent" : "black";
 
   return (
     <Flex
@@ -19,7 +20,7 @@ export default function Logo({ colored }: { colored: boolean }) {
         height="6rem"
         width="6rem" 
       />
-      <Heading color="black">ENdi</Heading>
+      <Heading color={textColor}>ENdi</Heading>
     </Flex>
   )
 }
