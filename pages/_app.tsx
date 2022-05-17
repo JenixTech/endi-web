@@ -17,6 +17,7 @@ const styles = {
       backgroundColor: colors.brand.secondary
     },
     "header": {
+      backgroundColor: colors.brand.secondary,
       boxShadow: "6px 6px 11px 4px rgb(24 24 24 / 7%)",
       position: "sticky",
       top: 0,
