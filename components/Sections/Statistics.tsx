@@ -10,7 +10,7 @@ import {
 import ResponsiveStack from '../ResponsiveStack';
 import {Size, useWindowSize} from '../../hooks/useWindowSize';
 
-export default function Landing() { 
+export default function Statistics() { 
   const size: Size = useWindowSize();
 
   return (
@@ -48,7 +48,6 @@ export default function Landing() {
           textAlign={(size.width && size.width > 710) ? "left" : "center"}
           align={(size.width && size.width > 710) ? "flex-start" : "center"} 
           spacing="2.5rem"
-          // paddingX={(size.width && size.width > 710) ? "0px" : "2rem"}
           paddingLeft={(size.width && size.width > 710) ? "10rem" : "2rem"}
           margin="0 auto"
           height="100%"

@@ -1,5 +1,5 @@
 import { HamburgerIcon } from '@chakra-ui/icons';
-import { Flex, Box, Heading, Image, IconButton, Menu, MenuButton, MenuItem, MenuList, HStack, Link } from '@chakra-ui/react';
+import { Flex, Box, Heading, Image, IconButton, Menu, MenuButton, MenuItem, MenuList, HStack, Link, VStack } from '@chakra-ui/react';
 import {Size, useWindowSize} from '../../hooks/useWindowSize';
 import NextLink from "next/link"
 import Logo from '../Logo';
@@ -46,18 +46,20 @@ export default function NavBar() {
                 as={IconButton}
                 aria-label='Options'
                 icon={<HamburgerIcon />}
-                variant='outline'
+                variant='ghost'
               />
               <MenuList>
-                <MenuItem>
-                  Home
-                </MenuItem>
-                <MenuItem>
-                  FAQs
-                </MenuItem>
-                <MenuItem>
-                  Contact
-                </MenuItem>
+                <VStack spacing="2rem" paddingY="1rem">
+                  <NextLink href="/" passHref>
+                    <Link>Home</Link>
+                  </NextLink>
+                  <NextLink href="/faqs" passHref>
+                    <Link>FAQs</Link>
+                  </NextLink>
+                  <NextLink href="/contact" passHref>
+                    <Link>Contact</Link>
+                  </NextLink>
+                </VStack>
               </MenuList>
             </Menu>
           )}
