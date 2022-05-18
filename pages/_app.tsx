@@ -23,6 +23,9 @@ const styles = {
       top: 0,
       zIndex: 999
     },
+    "footer": {
+      backgroundColor: colors.brand.primary
+    },
     "main": {
       height: '100%'
     }

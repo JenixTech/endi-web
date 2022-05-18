@@ -23,7 +23,7 @@ export default function Footer() {
         paddingX="1.5rem"
         fontWeight="medium"
         color="grey.100"
-        background="brand.secondary"
+        background="brand.primary"
       >
         <Flex
           flexDirection={(size.width && size.width > 710) ? "row" : "column"}

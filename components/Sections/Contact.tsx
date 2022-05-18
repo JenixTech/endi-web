@@ -74,13 +74,20 @@ export default function Contact() {
       flexDirection="column"
       background="brand.primary"
       alignItems="center"
-      paddingY="2rem"
+      paddingY="6rem"
       id="contact"
     >
       <Heading>
         Contact
       </Heading>
-      <Text fontSize="xl" marginTop="1rem">React out etc</Text>
+      <Text 
+        fontSize="xl" 
+        marginTop="1rem" 
+        maxWidth="700px"
+        textAlign="center"
+      >
+        Whether you want to learn more, give feedback, or share your journey with endometriosis, we&#39;d love to hear from you.
+      </Text>
       <Text 
         height="auto" 
         marginTop="1.5rem" 
@@ -92,6 +99,7 @@ export default function Contact() {
       <VStack
         marginY="0.5rem"
         alignItems="center"
+        spacing="1rem"
       >
         <Input 
           placeholder="Email" 
