@@ -43,8 +43,8 @@ export default function Statistics() {
         >
           <Image
             fallback={<Box maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} />}
-            src="/images/home-screen.png"
-            alt="ENdi home screen screenshot on iOS"
+            src="/images/statistics-scene.png"
+            alt="ENdi statistics screen screenshot on iOS"
             loading="lazy"
             maxHeight={(size.width && size.width > 710) ? "800px" : "500px"} 
           />
