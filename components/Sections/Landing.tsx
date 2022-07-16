@@ -55,13 +55,13 @@ export default function Landing() {
         >
           <Text fontWeight="bold" fontSize="4xl" color="brand.accent">Track symptoms, triggers, appointments, and more</Text>
           <Text fontWeight="bold" fontSize="2xl">Gain a better understanding of your endometriosis for a brighter, healthier future.</Text>
-          {/* <Link href="">
+          <Link href="https://apps.apple.com/us/app/my-endi/id1533158272">
             <Image 
               src="/images/app-store.svg"
               alt="Download on the App Store icon"
               height="4rem"
             />
-          </Link> */}
+          </Link>
         </VStack>
       </ResponsiveStack>
     </Flex>
