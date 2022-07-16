@@ -134,7 +134,7 @@ export default function FAQs() {
                 ENdi subscriptions are linked to your iCloud account. To use your subscription on multiple-devices, ensure you are logged in to the same account on each device, and download ENdi again.
                 <br/>
                 <br/>
-                When you open ENdi for the first time, simply click 'Restore Purchases' and wait for your previoud subscription to be confirmed.
+                When you open ENdi for the first time, simply click &lsquo;Restore Purchases&lsquo; and wait for your previoud subscription to be confirmed.
               </AccordionPanel>
             </AccordionItem>
 
@@ -148,7 +148,7 @@ export default function FAQs() {
                 </AccordionButton>
               </h2>
               <AccordionPanel py={4}>
-                Tap on the Settings icon at the bottom of the app’s Home screen - scroll down to Submit Feedback - Add your feedback and tap ‘Submit’.
+                Tap on the Settings icon at the bottom of the app&lsquo;s Home screen - scroll down to Submit Feedback - Add your feedback and tap &lsquo;Submit&lsquo;.
               </AccordionPanel>
             </AccordionItem>
 
