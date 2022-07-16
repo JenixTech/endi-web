@@ -148,7 +148,7 @@ export default function FAQs() {
                 </AccordionButton>
               </h2>
               <AccordionPanel py={4}>
-                Tap on the Settings icon at the bottom of the app’s Home screen -> scroll down to Submit Feedback -> Add your feedback and tap ‘Submit’.
+                Tap on the Settings icon at the bottom of the app’s Home screen - scroll down to Submit Feedback - Add your feedback and tap ‘Submit’.
               </AccordionPanel>
             </AccordionItem>
 
