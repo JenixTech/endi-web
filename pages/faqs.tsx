@@ -100,7 +100,7 @@ export default function FAQs() {
                 </AccordionButton>
               </h2>
               <AccordionPanel py={4}>
-                Click on the ‘Settings’ icon in the main menu then click ‘Manage subscription’. This will take you to the App Store where you can manage your subscription.
+                Click on the &lsquo;Settings&lsquo; icon in the main menu then click &lsquo;Manage subscription&lsquo;. This will take you to the App Store where you can manage your subscription.
                 <br/>
                 <br/>
                 Note: You will not receive a refund for the fees you have already paid for your current subscription period, therefor you will have access to the service until the end of your current subscription period.
