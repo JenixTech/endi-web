@@ -40,7 +40,7 @@ export default function Introduction() {
         >
           <Text fontWeight="bold" fontSize="4xl" color="brand.accent">Your personal Endometriosis assistant.</Text>
           <Text fontWeight="bold" fontSize="2xl">A no nonsense symptom tracker and journal.</Text>
-          <Link href="">
+          <Link href="https://apps.apple.com/us/app/my-endi/id1533158272">
             <Image 
               src="/images/app-store.svg"
               alt="Download on the App Store icon"
