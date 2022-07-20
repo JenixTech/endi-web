@@ -40,13 +40,6 @@ export default function Journal() {
         >
           <Text fontWeight="bold" fontSize="4xl" color="brand.accent">Personalize your daily journal to fit your lifestyle.</Text>
           <Text fontWeight="bold" fontSize="2xl">ENdi works with your day to day choices and keeps track of what applies to you.</Text>
-          {/* <Link href="">
-            <Image 
-              src="/images/app-store.svg"
-              alt="Download on the App Store icon"
-              height="4rem"
-            />
-          </Link> */}
         </VStack>
         <Center 
           minWidth={(size.width && size.width < 900) ? "" : "300px"}

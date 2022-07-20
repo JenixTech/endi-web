@@ -93,13 +93,6 @@ export default function Statistics() {
               </ListItem>
             </List>
           </ResponsiveStack>
-          {/* <Link href="">
-            <Image 
-              src="/images/app-store.svg"
-              alt="Download on the App Store icon"
-              height="4rem"
-            />
-          </Link> */}
         </VStack>
       </ResponsiveStack>
     </Flex>
