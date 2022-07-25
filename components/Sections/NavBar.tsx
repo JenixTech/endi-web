@@ -50,6 +50,9 @@ export default function NavBar() {
                 <NextLink href="/#contact" passHref>
                   <Link color={getLinkColor('/#contact')}>Contact</Link>
                 </NextLink>
+                <NextLink href="/community" passHref>
+                  <Link color={getLinkColor('/faqs')}>Community Resources</Link>
+                </NextLink>
               </HStack>
             </Flex>
           ) : (
@@ -71,6 +74,9 @@ export default function NavBar() {
                   <NextLink href="/contact" passHref>
                     <Link>Contact</Link>
                   </NextLink>
+                  <NextLink href="/community" passHref>
+                  <Link color={getLinkColor('/faqs')}>Community Resources</Link>
+                </NextLink>
                 </VStack>
               </MenuList>
             </Menu>

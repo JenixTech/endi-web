@@ -58,6 +58,9 @@ export default function Footer() {
             <NextLink href="/terms-of-service" passHref>
               <Link>Terms of Service</Link>
             </NextLink>
+            <NextLink href="/medical-disclaimer" passHref>
+              <Link>Medical Disclaimer</Link>
+            </NextLink>
           </VStack>
         </Flex>
         <Text 

@@ -20,7 +20,11 @@ export default function Logo({ colored }: { colored: boolean }) {
         height="6rem"
         width="6rem" 
       />
-      <Heading color={textColor}>ENdi</Heading>
+      <Heading
+        color={textColor}
+      >
+        ENdi
+      </Heading>
     </Flex>
   )
 }
