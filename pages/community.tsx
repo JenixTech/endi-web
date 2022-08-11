@@ -56,14 +56,16 @@ export default function Community() {
                 horizontal: !!(size.width && size.width > 710), 
                 spacing: (size.width && size.width > 710) ? "3rem" : "2rem",
                 margin: "0 auto",
-                maxWidth: "1000px"
+                maxWidth: "1000px",
+                alignItems: "flex-start"
               }}
             >
                 <Image
-                  src="https://endometriosisandme.com/wp-content/uploads/2018/03/logomaker-1483760283592_111.png"
+                  src="/images/endo-and-me.png"
                   alt="Endometriosis and me logo"
                   loading="eager"
                   height="6rem"
+                  paddingTop=".5rem"
                 />
                 <VStack 
                   alignItems="flex-start"
