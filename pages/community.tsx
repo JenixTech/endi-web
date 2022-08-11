@@ -30,9 +30,9 @@ export default function Community() {
         flexDirection="column"
         margin='0 auto'
       >
-        <Box flexGrow={2} marginBottom="4rem">
+        <Box flexGrow={2} marginBottom="4rem" marginX="auto" maxWidth="900px">
           <main>
-            <VStack marginBottom="4rem">
+            <VStack spacing="1rem" marginBottom="4rem">
               <Text 
                 fontWeight="bold" 
                 fontSize="4xl" 
@@ -44,10 +44,20 @@ export default function Community() {
               </Text>
               <Text 
                 fontSize="xl" 
+                fontWeight="bold" 
                 textAlign="center"
-                marginBottom="1.5rem"
               >
-                Facing Endometriosis together
+                Don&lsquo;t suffer alone.
+              </Text>
+              <Text  
+                fontSize="lg"
+              >
+                Endometriosis is a long-term gynaecological condition surrounded by misconceptions, a lack of awareness, and no simple cure. This can feel overwhelming and unmanageable, but you don&lsquo;t have to face this alone - our community page is here to help. 
+              </Text>
+              <Text  
+                fontSize="lg"
+              >
+                Below you will find a list of resources including friendly groups and useful web links, to help you find the right support to better manage and understand your condition.
               </Text>
             </VStack>
             <VStack margin="0 auto" maxW="calc(75vw)">
