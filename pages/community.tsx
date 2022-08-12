@@ -57,7 +57,7 @@ export default function Community() {
               <Text  
                 fontSize="lg"
               >
-                Below you will find a list of resources including friendly groups and useful web links, to help you find the right support to better manage and understand your condition.
+                Below is a list of resources including friendly groups and useful web links, to help you find the right support to better manage and understand your condition.
               </Text>
             </VStack>
             <VStack margin="0 auto" maxW="calc(75vw)">
