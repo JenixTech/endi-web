@@ -52,7 +52,7 @@ export default function Community() {
               <Text  
                 fontSize="lg"
               >
-                Endometriosis is a long-term gynaecological condition surrounded by misconceptions, a lack of awareness, and no simple cure. This can feel overwhelming and unmanageable, but you don&lsquo;t have to face this alone - our community page is here to help. 
+                Endometriosis is a chronic illness surrounded by misconceptions, a lack of awareness, and no simple cure. This can feel overwhelming and unmanageable, but you don&lsquo;t have to face this alone - our community page is here to help. 
               </Text>
               <Text  
                 fontSize="lg"
