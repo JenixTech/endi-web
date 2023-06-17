@@ -8,6 +8,7 @@ import {
   AccordionButton,
   AccordionIcon,
   Text,
+  Heading,
   VStack
 } from '@chakra-ui/react';
 import Head from 'next/head';
@@ -87,19 +88,11 @@ export default function FAQs() {
               </h2>
               <AccordionPanel py={4}>
                 You can manage or cancel your subscription renewal either directly through the App Store or through the app itself.
-              </AccordionPanel>
-            </AccordionItem>
-
-            <AccordionItem>
-              <h2>
-                <AccordionButton background="brand.primary">
-                  <Box flex='1' textAlign='left' fontWeight="bold">
-                    To edit/cancel your subscription
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel py={4}>
+                <br/>
+                <br/>
+                <Heading as='h5' size='sm'>
+                To edit/cancel your subscription
+                </Heading>
                 Click on the &lsquo;Settings&lsquo; icon in the main menu then click &lsquo;Manage subscription&lsquo;. This will take you to the App Store where you can manage your subscription.
                 <br/>
                 <br/>
@@ -176,7 +169,7 @@ export default function FAQs() {
                 </AccordionButton>
               </h2>
               <AccordionPanel py={4}>
-                ENdi collects anonymous data to assisit in application and feature improvements.
+                ENdi collects anonymous data to assist in application and feature improvements.
               </AccordionPanel>
             </AccordionItem>
           </Accordion>
